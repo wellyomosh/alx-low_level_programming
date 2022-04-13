@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
-*  * main -  prints _putchar, followed by a new line
-*   * Return: Always 0 (Success)
-*/
-
+ * main - Entry point
+ * write a program that prints _putchar followed by a new line
+ * Return: (0)
+ */
 int main(void)
 {
-	char word[9] = "_putchar\n";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(word[i]);
-	}
-
-	return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+return (0);
 }
