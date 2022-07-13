@@ -1,50 +1,56 @@
+#include "new.h"
+
 /**
- * add - addition
- * @a: number
- * @b: nuber
- * Return: result
+ * add - addition operator
+ * @a: first int
+ * @b: second int
+ * Return: sum of 2 numbers
  */
 int add(int a, int b)
 {
-      return (a + b);
+	return (a + b);
 }
+
 /**
- * sub - addition
- * @a: number
- * @b: nuber
- * Return: result
+ * sub - subtraction operator
+ * @a: first in
+ * @b: second int
+ * Return: difference of 2 numbers
  */
 int sub(int a, int b)
 {
-      return (a - b);
+	return (a - b);
 }
+
 /**
- * mul - addition
- * @a: number
- * @b: nuber
- * Return: result
+ * mul - product of 2 numbers
+ * @a: first int
+ * @b: second int
+ * Return: product of the numbers
  */
 int mul(int a, int b)
 {
-      return (a * b);
+	return (a * b);
 }
+
 /**
- * div - addition
- * @a: number
- * @b: nuber
- * Return: result
+ * div - division of 2 numbers
+ * @a: first int
+ * @b: second int
+ * Return: result of the division of the numbers
  */
 int div(int a, int b)
 {
-      return (a / b);
+	return (a / b);
 }
+
 /**
- * mod - addition
- * @a: number
- * @b: nuber
- * Return: result
+ * mod - get remainder of the division of 2 numbers
+ * @a: first int
+ * @b: second int
+ * Return: remainder of division of the numbers
  */
 int mod(int a, int b)
 {
-      return (a % b);
+	return (a % b);
 }
